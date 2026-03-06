@@ -1,5 +1,3 @@
-// lib/models/registrant_model.dart
-
 class Registrant {
   final String id;
   final String name;
@@ -19,7 +17,6 @@ class Registrant {
     DateTime? registeredAt,
   }) : registeredAt = registeredAt ?? DateTime.now();
 
-  // Helper: hitung umur
   int get age {
     final now = DateTime.now();
     int age = now.year - dateOfBirth.year;
@@ -30,7 +27,6 @@ class Registrant {
     return age;
   }
 
-  // Helper: format tanggal lahir
   String get formattedDateOfBirth {
     final months = [
       '', 'Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun',
@@ -39,7 +35,6 @@ class Registrant {
     return '${dateOfBirth.day} ${months[dateOfBirth.month]} ${dateOfBirth.year}';
   }
 
-  // Helper: format waktu registrasi
   String get formattedRegisteredAt {
     return '${registeredAt.day}/${registeredAt.month}/${registeredAt.year} '
         '${registeredAt.hour.toString().padLeft(2, '0')}:'

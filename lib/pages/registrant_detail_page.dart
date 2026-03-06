@@ -1,4 +1,3 @@
-// lib/pages/registrant_detail_page.dart
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/registration_provider.dart';
@@ -24,7 +23,6 @@ class RegistrantDetailPage extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
-            // Avatar
             CircleAvatar(
               radius: 50,
               child: Text(
@@ -47,7 +45,6 @@ class RegistrantDetailPage extends StatelessWidget {
             ),
             const SizedBox(height: 24),
 
-            // Info Cards
             _buildInfoCard(Icons.email, 'Email', registrant.email),
             _buildInfoCard(Icons.person, 'Gender', registrant.gender),
             _buildInfoCard(Icons.school, 'Program Studi', registrant.programStudi),
