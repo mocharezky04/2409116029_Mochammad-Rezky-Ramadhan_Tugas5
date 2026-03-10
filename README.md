@@ -45,7 +45,23 @@ flutter run
 ```
 
 ## Bukti Screenshot yang Harus Dilampirkan
-- Form kosong.
-- Form terisi.
-- Validation error.
-- List pendaftar.
+
+### 1. Form Kosong.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2fa3b5da-33b0-4866-8429-8c156e2e94f7" width="600"/>
+</p>
+
+### 2. Form terisi.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0b2b00e7-81ac-4152-bbe3-e8bce5f2d551" width="600"/>
+</p>
+
+### 3. Validation error.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6bbbc011-56ee-4b5a-8b17-7f139a1c9816" width="600"/>
+</p>
+
+### 4. List pendaftar.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bb3ff3b4-f956-4a0e-97f1-52dc20ab695d" width="600"/>
+</p>
